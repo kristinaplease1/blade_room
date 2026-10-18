@@ -9,34 +9,34 @@
 
 <style>
 
-:root {
-    --bg: #10120d;
-    --panel: #20241a;
-    --text: #eeeeea;
-    --muted: #b8b9ae;
-    --olive: #aab681;
-    --line: #343925;
+:root{
+    --bg:#10120d;
+    --panel:#20241a;
+    --text:#eeeeea;
+    --muted:#b8b9ae;
+    --olive:#aab681;
+    --line:#343925;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 70px;
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top:70px;
 }
 
-body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:Arial,Helvetica,sans-serif;
 }
 
-a {
-    color: inherit;
+a{
+    color:inherit;
 }
 
 
@@ -44,48 +44,47 @@ a {
    HEADER
 ========================= */
 
-header {
-    position: relative;
-    isolation: isolate;
+header{
+    position:relative;
+    isolation:isolate;
 
-    min-height: 620px;
+    min-height:620px;
 
-    padding: 35px 6% 55px;
+    padding:35px 6% 55px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 
     background:
         linear-gradient(
             rgba(10,12,8,.62),
             rgba(10,12,8,.80)
         ),
-        url("barbershop.jpg")
-        center 48% / cover no-repeat;
+        url("barbershop.jpg") center 48%/cover no-repeat;
 }
 
-.header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+.header-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
 }
 
-.header-name {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 4px;
+.header-name{
+    font-size:18px;
+    font-weight:bold;
+    letter-spacing:4px;
 }
 
-.header-instagram {
-    font-size: 11px;
-    letter-spacing: 2px;
-    text-decoration: none;
+.header-instagram{
+    font-size:11px;
+    letter-spacing:2px;
+    text-decoration:none;
 }
 
-.header-instagram:hover {
-    color: var(--olive);
+.header-instagram:hover{
+    color:var(--olive);
 }
 
 
@@ -93,38 +92,38 @@ header {
    HERO
 ========================= */
 
-.hero {
-    text-align: center;
-    margin-top: 20px;
-    position: relative;
-    z-index: 1;
+.hero{
+    text-align:center;
+    margin-top:20px;
+    position:relative;
+    z-index:1;
 }
 
-.hero-small {
-    color: var(--olive);
+.hero-small{
+    color:var(--olive);
 
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 5px;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:5px;
 
-    margin-bottom: 25px;
+    margin-bottom:25px;
 }
 
-.hero h1 {
-    font-size: clamp(48px, 10vw, 130px);
-    line-height: .95;
-    letter-spacing: 3px;
-    font-weight: 900;
+.hero h1{
+    font-size:clamp(48px,10vw,130px);
+    line-height:.95;
+    letter-spacing:3px;
+    font-weight:900;
 }
 
-.hero p {
-    margin-top: 25px;
+.hero p{
+    margin-top:25px;
 
-    color: #e0e0d8;
+    color:#e0e0d8;
 
-    font-size: 14px;
-    letter-spacing: .4px;
-    line-height: 1.6;
+    font-size:14px;
+    letter-spacing:.4px;
+    line-height:1.6;
 }
 
 
@@ -132,38 +131,38 @@ header {
    TOP BUTTONS
 ========================= */
 
-.top-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.top-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-    gap: 12px;
-    flex-wrap: wrap;
+    gap:12px;
+    flex-wrap:wrap;
 
-    margin-top: 38px;
+    margin-top:38px;
 }
 
-.top-buttons a {
-    display: inline-block;
+.top-buttons a{
+    display:inline-block;
 
-    padding: 14px 22px;
+    padding:14px 22px;
 
-    border: 1px solid var(--olive);
+    border:1px solid var(--olive);
 
-    color: var(--text);
+    color:var(--text);
 
-    text-decoration: none;
+    text-decoration:none;
 
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:1.5px;
 
-    transition: .25s;
+    transition:.25s;
 }
 
-.top-buttons a:hover {
-    background: var(--olive);
-    color: #10120d;
+.top-buttons a:hover{
+    background:var(--olive);
+    color:#10120d;
 }
 
 
@@ -171,34 +170,34 @@ header {
    INFO
 ========================= */
 
-.info {
-    display: flex;
-    justify-content: center;
+.info{
+    display:flex;
+    justify-content:center;
 
-    gap: 60px;
+    gap:60px;
 
-    margin-top: 30px;
+    margin-top:30px;
 
-    text-align: left;
+    text-align:left;
 }
 
-.info-item span {
-    display: block;
+.info-item span{
+    display:block;
 
-    color: var(--olive);
+    color:var(--olive);
 
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 3px;
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing:3px;
 
-    margin-bottom: 8px;
+    margin-bottom:8px;
 }
 
-.info-item p {
-    color: #e0e0d8;
+.info-item p{
+    color:#e0e0d8;
 
-    font-size: 12px;
-    line-height: 1.6;
+    font-size:12px;
+    line-height:1.6;
 }
 
 
@@ -206,40 +205,40 @@ header {
    BRAND NAVIGATION
 ========================= */
 
-.brand-nav {
-    position: sticky;
-    top: 0;
-    z-index: 20;
+.brand-nav{
+    position:sticky;
+    top:0;
+    z-index:20;
 
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content:center;
 
-    gap: 45px;
+    gap:45px;
 
-    padding: 19px 20px;
+    padding:19px 20px;
 
-    background: rgba(18,20,14,.97);
+    background:rgba(18,20,14,.97);
 
-    border-top: 1px solid #303428;
-    border-bottom: 1px solid #303428;
+    border-top:1px solid #303428;
+    border-bottom:1px solid #303428;
 
-    backdrop-filter: blur(10px);
+    backdrop-filter:blur(10px);
 }
 
-.brand-nav a {
-    text-decoration: none;
+.brand-nav a{
+    text-decoration:none;
 
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 3px;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:3px;
 
-    white-space: nowrap;
+    white-space:nowrap;
 
-    transition: .25s;
+    transition:.25s;
 }
 
-.brand-nav a:hover {
-    color: var(--olive);
+.brand-nav a:hover{
+    color:var(--olive);
 }
 
 
@@ -247,26 +246,25 @@ header {
    PRODUCTS
 ========================= */
 
-.products-section {
+.products-section{
     background:
         linear-gradient(
             rgba(16,18,13,.94),
             rgba(16,18,13,.97)
         ),
-        url("barbershop.jpg")
-        center center / cover fixed;
+        url("barbershop.jpg") center center/cover fixed;
 
-    padding: 80px 6%;
+    padding:80px 6%;
 }
 
-.brand {
-    margin-bottom: 90px;
+.brand{
+    margin-bottom:90px;
 
-    scroll-margin-top: 80px;
+    scroll-margin-top:80px;
 }
 
-.brand:last-child {
-    margin-bottom: 10px;
+.brand:last-child{
+    margin-bottom:10px;
 }
 
 
@@ -274,29 +272,29 @@ header {
    BRAND TITLE
 ========================= */
 
-.brand-title {
-    display: flex;
-    align-items: baseline;
+.brand-title{
+    display:flex;
+    align-items:baseline;
 
-    gap: 15px;
+    gap:15px;
 
-    margin-bottom: 30px;
+    margin-bottom:30px;
 
-    border-bottom: 1px solid var(--line);
+    border-bottom:1px solid var(--line);
 
-    padding-bottom: 15px;
+    padding-bottom:15px;
 }
 
-.brand-number {
-    color: var(--olive);
+.brand-number{
+    color:var(--olive);
 
-    font-size: 13px;
-    font-weight: bold;
+    font-size:13px;
+    font-weight:bold;
 }
 
-.brand-name {
-    font-size: 30px;
-    letter-spacing: 4px;
+.brand-name{
+    font-size:30px;
+    letter-spacing:4px;
 }
 
 
@@ -304,13 +302,13 @@ header {
    PRODUCT GRID
 ========================= */
 
-.product-grid {
-    display: grid;
+.product-grid{
+    display:grid;
 
     grid-template-columns:
-        repeat(3, minmax(0, 1fr));
+        repeat(3,minmax(0,1fr));
 
-    gap: 30px 24px;
+    gap:30px 24px;
 }
 
 
@@ -318,25 +316,25 @@ header {
    PRODUCT CARD
 ========================= */
 
-.product-card {
-    background: rgba(28,32,23,.96);
+.product-card{
+    background:rgba(28,32,23,.96);
 
-    border: 1px solid #343a2a;
+    border:1px solid #343a2a;
 
-    padding: 18px;
+    padding:18px;
 
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
 
-    min-height: 520px;
+    min-height:520px;
 
-    transition: .25s;
+    transition:.25s;
 }
 
-.product-card:hover {
-    transform: translateY(-4px);
+.product-card:hover{
+    transform:translateY(-4px);
 
-    border-color: var(--olive);
+    border-color:var(--olive);
 }
 
 
@@ -344,22 +342,22 @@ header {
    PRODUCT IMAGE
 ========================= */
 
-.product-image {
-    width: 100%;
-    height: 320px;
+.product-image{
+    width:100%;
+    height:320px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 
-    margin-bottom: 20px;
+    margin-bottom:20px;
 }
 
-.product-image img {
-    width: 100%;
-    height: 100%;
+.product-image img{
+    width:100%;
+    height:100%;
 
-    object-fit: contain;
+    object-fit:contain;
 }
 
 
@@ -367,13 +365,13 @@ header {
    PRODUCT TITLE
 ========================= */
 
-.product-title {
-    font-size: 14px;
-    line-height: 1.55;
+.product-title{
+    font-size:14px;
+    line-height:1.55;
 
-    min-height: 65px;
+    min-height:65px;
 
-    margin-bottom: 14px;
+    margin-bottom:14px;
 }
 
 
@@ -381,13 +379,13 @@ header {
    PRICE
 ========================= */
 
-.price {
-    color: #fff;
+.price{
+    color:#fff;
 
-    font-size: 18px;
-    font-weight: bold;
+    font-size:18px;
+    font-weight:bold;
 
-    margin-bottom: 18px;
+    margin-bottom:18px;
 }
 
 
@@ -395,32 +393,32 @@ header {
    ORDER BUTTON
 ========================= */
 
-.order-button {
-    display: block;
+.order-button{
+    display:block;
 
-    width: 100%;
+    width:100%;
 
-    margin-top: auto;
+    margin-top:auto;
 
-    padding: 16px 10px;
+    padding:16px 10px;
 
-    background: var(--olive);
+    background:var(--olive);
 
-    color: #10120d;
+    color:#10120d;
 
-    text-align: center;
+    text-align:center;
 
-    text-decoration: none;
+    text-decoration:none;
 
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:2px;
 
-    transition: .25s;
+    transition:.25s;
 }
 
-.order-button:hover {
-    background: var(--text);
+.order-button:hover{
+    background:var(--text);
 }
 
 
@@ -428,30 +426,30 @@ header {
    FOOTER
 ========================= */
 
-footer {
-    background: #10120d;
+footer{
+    background:#10120d;
 
-    border-top: 1px solid #303428;
+    border-top:1px solid #303428;
 
-    padding: 45px 6%;
+    padding:45px 6%;
 
-    text-align: center;
+    text-align:center;
 }
 
-.footer-name {
-    font-size: 25px;
-    font-weight: bold;
+.footer-name{
+    font-size:25px;
+    font-weight:bold;
 
-    letter-spacing: 5px;
+    letter-spacing:5px;
 
-    margin-bottom: 15px;
+    margin-bottom:15px;
 }
 
-.footer-text {
-    color: #888b80;
+.footer-text{
+    color:#888b80;
 
-    font-size: 11px;
-    letter-spacing: 2px;
+    font-size:11px;
+    letter-spacing:2px;
 }
 
 
@@ -459,23 +457,23 @@ footer {
    TABLET
 ========================= */
 
-@media (max-width: 900px) {
+@media(max-width:900px){
 
-    .product-grid {
+    .product-grid{
         grid-template-columns:
-            repeat(2, minmax(0, 1fr));
+            repeat(2,minmax(0,1fr));
     }
 
-    .brand-nav {
-        gap: 25px;
+    .brand-nav{
+        gap:25px;
     }
 
-    .info {
-        gap: 35px;
+    .info{
+        gap:35px;
     }
 
-    .products-section {
-        padding: 65px 4%;
+    .products-section{
+        padding:65px 4%;
     }
 
 }
@@ -485,160 +483,160 @@ footer {
    MOBILE
 ========================= */
 
-@media (max-width: 600px) {
+@media(max-width:600px){
 
-    header {
-        min-height: auto;
+    header{
+        min-height:auto;
 
-        padding: 25px 20px 40px;
+        padding:25px 20px 40px;
 
-        background-position: center center;
+        background-position:center center;
     }
 
-    .header-name {
-        font-size: 13px;
-        letter-spacing: 2.5px;
+    .header-name{
+        font-size:13px;
+        letter-spacing:2.5px;
     }
 
-    .header-instagram {
-        font-size: 9px;
+    .header-instagram{
+        font-size:9px;
     }
 
-    .hero {
-        margin-top: 75px;
+    .hero{
+        margin-top:75px;
     }
 
-    .hero-small {
-        font-size: 9px;
+    .hero-small{
+        font-size:9px;
 
-        letter-spacing: 3px;
+        letter-spacing:3px;
 
-        margin-bottom: 20px;
+        margin-bottom:20px;
     }
 
-    .hero h1 {
-        font-size: clamp(38px, 11vw, 55px);
+    .hero h1{
+        font-size:clamp(38px,11vw,55px);
 
-        letter-spacing: 1px;
+        letter-spacing:1px;
     }
 
-    .hero p {
-        font-size: 12px;
+    .hero p{
+        font-size:12px;
 
-        margin-top: 22px;
+        margin-top:22px;
     }
 
 
-    /* TOP BUTTONS */
+    /* BUTTONS */
 
-    .top-buttons {
-        gap: 8px;
+    .top-buttons{
+        gap:8px;
 
-        margin-top: 30px;
+        margin-top:30px;
     }
 
-    .top-buttons a {
-        padding: 12px 13px;
+    .top-buttons a{
+        padding:12px 13px;
 
-        font-size: 9px;
+        font-size:9px;
 
-        letter-spacing: 1px;
+        letter-spacing:1px;
     }
 
 
     /* INFO */
 
-    .info {
-        flex-direction: column;
+    .info{
+        flex-direction:column;
 
-        gap: 18px;
+        gap:18px;
 
-        align-items: center;
+        align-items:center;
 
-        text-align: center;
+        text-align:center;
 
-        margin-top: 30px;
+        margin-top:30px;
     }
 
-    .info-item p {
-        text-align: center;
+    .info-item p{
+        text-align:center;
     }
 
 
-    /* NAV */
+    /* NAVIGATION */
 
-    .brand-nav {
-        justify-content: flex-start;
+    .brand-nav{
+        justify-content:flex-start;
 
-        overflow-x: auto;
+        overflow-x:auto;
 
-        gap: 25px;
+        gap:25px;
 
-        padding: 16px 20px;
+        padding:16px 20px;
     }
 
-    .brand-nav a {
-        font-size: 9px;
+    .brand-nav a{
+        font-size:9px;
     }
 
 
     /* PRODUCTS */
 
-    .products-section {
-        padding: 50px 16px;
+    .products-section{
+        padding:50px 16px;
 
-        background-attachment: scroll;
+        background-attachment:scroll;
     }
 
-    .brand {
-        margin-bottom: 65px;
+    .brand{
+        margin-bottom:65px;
     }
 
-    .brand-title {
-        margin-bottom: 22px;
+    .brand-title{
+        margin-bottom:22px;
     }
 
-    .brand-name {
-        font-size: 23px;
+    .brand-name{
+        font-size:23px;
 
-        letter-spacing: 3px;
+        letter-spacing:3px;
     }
 
-    .product-grid {
-        grid-template-columns: 1fr;
+    .product-grid{
+        grid-template-columns:1fr;
 
-        gap: 24px;
+        gap:24px;
     }
 
-    .product-card {
-        min-height: 490px;
+    .product-card{
+        min-height:490px;
 
-        padding: 15px;
+        padding:15px;
     }
 
-    .product-image {
-        height: 300px;
+    .product-image{
+        height:300px;
     }
 
-    .product-title {
-        font-size: 14px;
+    .product-title{
+        font-size:14px;
 
-        min-height: unset;
+        min-height:unset;
     }
 
-    .price {
-        font-size: 17px;
+    .price{
+        font-size:17px;
     }
 
 
     /* FOOTER */
 
-    footer {
-        padding: 38px 20px;
+    footer{
+        padding:38px 20px;
     }
 
-    .footer-name {
-        font-size: 20px;
+    .footer-name{
+        font-size:20px;
     }
 
 }
@@ -648,16 +646,16 @@ footer {
    REDUCED MOTION
 ========================= */
 
-@media (prefers-reduced-motion: reduce) {
+@media(prefers-reduced-motion:reduce){
 
-    html {
-        scroll-behavior: auto;
+    html{
+        scroll-behavior:auto;
     }
 
     *,
     *::before,
-    *::after {
-        transition: none !important;
+    *::after{
+        transition:none!important;
     }
 
 }
@@ -708,9 +706,7 @@ footer {
         </p>
 
 
-        <!-- =========================
-             TOP BUTTONS
-        ========================= -->
+        <!-- TOP BUTTONS -->
 
         <div class="top-buttons">
 
@@ -722,11 +718,9 @@ footer {
                 GOOGLE MAPS
             </a>
 
-
             <a href="tel:+380508008123">
                 +380 50 800 8 123
             </a>
-
 
             <a
                 href="https://www.instagram.com/barbershop_blade_room_/"
@@ -735,7 +729,6 @@ footer {
             >
                 INSTAGRAM
             </a>
-
 
             <a
                 href="https://t.me/blade_room"
@@ -748,9 +741,7 @@ footer {
         </div>
 
 
-        <!-- =========================
-             INFO
-        ========================= -->
+        <!-- INFO -->
 
         <div class="info">
 
@@ -856,7 +847,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a1.jpg"
+                        src="a1.PNG"
                         alt="Proraso живильний крем для гоління"
                         loading="lazy"
                     >
@@ -891,7 +882,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a2.jpg"
+                        src="a2.PNG"
                         alt="Proraso мило для гоління"
                         loading="lazy"
                     >
@@ -926,7 +917,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a3.jpg"
+                        src="a3.PNG"
                         alt="Proraso крем перед голінням"
                         loading="lazy"
                     >
@@ -961,7 +952,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a4.jpg"
+                        src="a4.PNG"
                         alt="Proraso шампунь для бороди"
                         loading="lazy"
                     >
@@ -996,7 +987,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a5.jpg"
+                        src="a5.PNG"
                         alt="Proraso олія для бороди"
                         loading="lazy"
                     >
@@ -1060,7 +1051,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a6.jpg"
+                        src="a6.PNG"
                         alt="Morgans шампунь 250 мл"
                         loading="lazy"
                     >
@@ -1095,7 +1086,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a7.jpg"
+                        src="a7.PNG"
                         alt="Morgans паста 50 мл"
                         loading="lazy"
                     >
@@ -1130,7 +1121,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a8.jpg"
+                        src="a8.PNG"
                         alt="Morgans паста 120 мл"
                         loading="lazy"
                     >
@@ -1164,7 +1155,7 @@ footer {
 
     <!-- =========================
          NISHMAN
-    ========================= -->
+========================= -->
 
     <section
         class="brand"
@@ -1194,7 +1185,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a9.jpg"
+                        src="a9.PNG"
                         alt="Nishman двофазник 400 мл"
                         loading="lazy"
                     >
@@ -1229,7 +1220,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a10.jpg"
+                        src="a10.PNG"
                         alt="Nishman After Shave Cologne 400 мл"
                         loading="lazy"
                     >
@@ -1264,7 +1255,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a11.jpg"
+                        src="a11.PNG"
                         alt="Nishman паста M2 100 мл"
                         loading="lazy"
                     >
@@ -1328,7 +1319,7 @@ footer {
                 <div class="product-image">
 
                     <img
-                        src="a12.jpg"
+                        src="a12.PNG"
                         alt="Luxina крем перед та після гоління 100 мл"
                         loading="lazy"
                     >
@@ -1380,14 +1371,14 @@ footer {
 
 
 <!-- =========================
-     TELEGRAM ORDER
+     TELEGRAM
 ========================= -->
 
 <script>
 
 document
     .querySelectorAll('.order-button[data-product]')
-    .forEach(function(button) {
+    .forEach(function(button){
 
         var product =
             button.getAttribute('data-product');
