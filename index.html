@@ -527,8 +527,6 @@ footer{
     }
 
 
-    /* BUTTONS */
-
     .top-buttons{
         gap:8px;
 
@@ -543,8 +541,6 @@ footer{
         letter-spacing:1px;
     }
 
-
-    /* INFO */
 
     .info{
         flex-direction:column;
@@ -563,8 +559,6 @@ footer{
     }
 
 
-    /* NAVIGATION */
-
     .brand-nav{
         justify-content:flex-start;
 
@@ -579,8 +573,6 @@ footer{
         font-size:9px;
     }
 
-
-    /* PRODUCTS */
 
     .products-section{
         padding:50px 16px;
@@ -629,8 +621,6 @@ footer{
     }
 
 
-    /* FOOTER */
-
     footer{
         padding:38px 20px;
     }
@@ -641,10 +631,6 @@ footer{
 
 }
 
-
-/* =========================
-   REDUCED MOTION
-========================= */
 
 @media(prefers-reduced-motion:reduce){
 
@@ -666,10 +652,6 @@ footer{
 
 <body>
 
-
-<!-- =========================
-     HEADER
-========================= -->
 
 <header>
 
@@ -706,8 +688,6 @@ footer{
         </p>
 
 
-        <!-- TOP BUTTONS -->
-
         <div class="top-buttons">
 
             <a
@@ -740,8 +720,6 @@ footer{
 
         </div>
 
-
-        <!-- INFO -->
 
         <div class="info">
 
@@ -780,14 +758,8 @@ footer{
 </header>
 
 
-<!-- =========================
-     BRAND NAVIGATION
-========================= -->
 
-<nav
-    class="brand-nav"
-    aria-label="Навігація за брендами"
->
+<nav class="brand-nav">
 
     <a href="#proraso">
         PRORASO
@@ -801,6 +773,10 @@ footer{
         NISHMAN
     </a>
 
+    <a href="#xflex">
+        XFLEX
+    </a>
+
     <a href="#luxina">
         LUXINA
     </a>
@@ -808,554 +784,684 @@ footer{
 </nav>
 
 
-<!-- =========================
-     PRODUCTS
-========================= -->
 
 <main class="products-section">
 
 
-    <!-- =========================
-         PRORASO
-    ========================= -->
-
-    <section
-        class="brand"
-        id="proraso"
-    >
-
-        <div class="brand-title">
-
-            <span class="brand-number">
-                01
-            </span>
-
-            <h2 class="brand-name">
-                PRORASO
-            </h2>
-
-        </div>
-
-
-        <div class="product-grid">
-
-
-            <!-- A1 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a1.PNG"
-                        alt="Proraso живильний крем для гоління"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Proraso живильний крем для гоління для помʼякшення жорсткої щетини з сандаловою олією та олією дерева Ши
-                </div>
-
-                <div class="price">
-                    300 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Proraso живильний крем для гоління"
-                >
-                    ЗАМОВИТИ
-                </a>
-
-            </article>
-
-
-            <!-- A2 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a2.PNG"
-                        alt="Proraso мило для гоління"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Proraso мило для гоління з екстрактом зеленого чаю та вівса для чутливої шкіри
-                </div>
-
-                <div class="price">
-                    200 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Proraso мило для гоління"
-                >
-                    ЗАМОВИТИ
-                </a>
-
-            </article>
-
-
-            <!-- A3 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a3.PNG"
-                        alt="Proraso крем перед голінням"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Proraso крем для чутливої шкіри перед голінням з екстрактом зеленого чаю та вівса
-                </div>
-
-                <div class="price">
-                    350 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Proraso крем перед голінням"
-                >
-                    ЗАМОВИТИ
-                </a>
-
-            </article>
-
-
-            <!-- A4 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a4.PNG"
-                        alt="Proraso шампунь для бороди"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Proraso шампунь для бороди Cypress &amp; Vetyver
-                </div>
-
-                <div class="price">
-                    650 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Proraso шампунь для бороди Cypress & Vetyver"
-                >
-                    ЗАМОВИТИ
-                </a>
-
-            </article>
-
-
-            <!-- A5 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a5.PNG"
-                        alt="Proraso олія для бороди"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Proraso олія для догляду за бородою
-                </div>
-
-                <div class="price">
-                    650 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Proraso олія для догляду за бородою"
-                >
-                    ЗАМОВИТИ
-                </a>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         MORGANS
-    ========================= -->
-
-    <section
-        class="brand"
-        id="morgans"
-    >
-
-        <div class="brand-title">
-
-            <span class="brand-number">
-                02
-            </span>
-
-            <h2 class="brand-name">
-                MORGANS
-            </h2>
-
-        </div>
-
-
-        <div class="product-grid">
-
-
-            <!-- A6 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a6.PNG"
-                        alt="Morgans шампунь 250 мл"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Morgans шампунь 250 мл
-                </div>
-
-                <div class="price">
-                    500 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Morgans шампунь 250 мл"
-                >
-                    ЗАМОВИТИ
-                </a>
-
-            </article>
-
-
-            <!-- A7 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a7.PNG"
-                        alt="Morgans паста 50 мл"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Morgans паста 50 мл
-                </div>
-
-                <div class="price">
-                    500 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Morgans паста 50 мл"
-                >
-                    ЗАМОВИТИ
-                </a>
-
-            </article>
-
-
-            <!-- A8 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a8.PNG"
-                        alt="Morgans паста 120 мл"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Morgans паста 120 мл
-                </div>
-
-                <div class="price">
-                    700 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Morgans паста 120 мл"
-                >
-                    ЗАМОВИТИ
-                </a>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         NISHMAN
+<!-- =========================
+     PRORASO
 ========================= -->
 
-    <section
-        class="brand"
-        id="nishman"
-    >
+<section class="brand" id="proraso">
 
-        <div class="brand-title">
+    <div class="brand-title">
 
-            <span class="brand-number">
-                03
-            </span>
+        <span class="brand-number">
+            01
+        </span>
 
-            <h2 class="brand-name">
-                NISHMAN
-            </h2>
+        <h2 class="brand-name">
+            PRORASO
+        </h2>
 
-        </div>
+    </div>
 
 
-        <div class="product-grid">
+    <div class="product-grid">
 
 
-            <!-- A9 -->
+        <article class="product-card">
 
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a9.PNG"
-                        alt="Nishman двофазник 400 мл"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Nishman двофазник 400 мл
-                </div>
-
-                <div class="price">
-                    900 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Nishman двофазник 400 мл"
+            <div class="product-image">
+                <img
+                    src="a1.PNG"
+                    alt="Proraso живильний крем для гоління"
+                    loading="lazy"
                 >
-                    ЗАМОВИТИ
-                </a>
+            </div>
 
-            </article>
+            <div class="product-title">
+                Proraso живильний крем для гоління для помʼякшення жорсткої щетини з сандаловою олією та олією дерева Ши
+            </div>
+
+            <div class="price">
+                300 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Proraso живильний крем для гоління"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
 
 
-            <!-- A10 -->
+        <article class="product-card">
 
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a10.PNG"
-                        alt="Nishman After Shave Cologne 400 мл"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Nishman After Shave Cologne 400 мл
-                </div>
-
-                <div class="price">
-                    900 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Nishman After Shave Cologne 400 мл"
+            <div class="product-image">
+                <img
+                    src="a2.PNG"
+                    alt="Proraso мило для гоління"
+                    loading="lazy"
                 >
-                    ЗАМОВИТИ
-                </a>
+            </div>
 
-            </article>
+            <div class="product-title">
+                Proraso мило для гоління з екстрактом зеленого чаю та вівса для чутливої шкіри
+            </div>
+
+            <div class="price">
+                200 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Proraso мило для гоління"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
 
 
-            <!-- A11 -->
+        <article class="product-card">
 
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a11.PNG"
-                        alt="Nishman паста M2 100 мл"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Nishman паста M2 100 мл
-                </div>
-
-                <div class="price">
-                    500 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Nishman паста M2 100 мл"
+            <div class="product-image">
+                <img
+                    src="a3.PNG"
+                    alt="Proraso крем для чутливої шкіри"
+                    loading="lazy"
                 >
-                    ЗАМОВИТИ
-                </a>
+            </div>
 
-            </article>
+            <div class="product-title">
+                Proraso крем для чутливої шкіри перед голінням з екстрактом зеленого чаю та вівса
+            </div>
 
-        </div>
+            <div class="price">
+                350 грн
+            </div>
 
-    </section>
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Proraso крем для чутливої шкіри перед голінням"
+            >
+                ЗАМОВИТИ
+            </a>
 
-
-    <!-- =========================
-         LUXINA
-    ========================= -->
-
-    <section
-        class="brand"
-        id="luxina"
-    >
-
-        <div class="brand-title">
-
-            <span class="brand-number">
-                04
-            </span>
-
-            <h2 class="brand-name">
-                LUXINA
-            </h2>
-
-        </div>
+        </article>
 
 
-        <div class="product-grid">
+        <article class="product-card">
 
-
-            <!-- A12 -->
-
-            <article class="product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="a12.PNG"
-                        alt="Luxina крем перед та після гоління 100 мл"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="product-title">
-                    Luxina крем перед та після гоління 100 мл
-                </div>
-
-                <div class="price">
-                    700 грн
-                </div>
-
-                <a
-                    class="order-button"
-                    href="https://t.me/blade_room"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-product="Luxina крем перед та після гоління 100 мл"
+            <div class="product-image">
+                <img
+                    src="a4.PNG"
+                    alt="Proraso шампунь для бороди Cypress & Vetyver"
+                    loading="lazy"
                 >
-                    ЗАМОВИТИ
-                </a>
+            </div>
 
-            </article>
+            <div class="product-title">
+                Proraso шампунь для бороди Cypress &amp; Vetyver
+            </div>
 
-        </div>
+            <div class="price">
+                650 грн
+            </div>
 
-    </section>
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Proraso шампунь для бороди Cypress & Vetyver"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a5.PNG"
+                    alt="Proraso олія для догляду за бородою"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Proraso олія для догляду за бородою
+            </div>
+
+            <div class="price">
+                650 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Proraso олія для догляду за бородою"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     MORGANS
+========================= -->
+
+<section class="brand" id="morgans">
+
+    <div class="brand-title">
+
+        <span class="brand-number">
+            02
+        </span>
+
+        <h2 class="brand-name">
+            MORGANS
+        </h2>
+
+    </div>
+
+
+    <div class="product-grid">
+
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a6.PNG"
+                    alt="Morgans шампунь 250 мл"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Morgans шампунь 250 мл
+            </div>
+
+            <div class="price">
+                500 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Morgans шампунь 250 мл"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a7.PNG"
+                    alt="Morgans паста 50 мл"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Morgans паста 50 мл
+            </div>
+
+            <div class="price">
+                500 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Morgans паста 50 мл"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a8.PNG"
+                    alt="Morgans паста 120 мл"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Morgans паста 120 мл
+            </div>
+
+            <div class="price">
+                700 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Morgans паста 120 мл"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <!-- NEW MORGANS -->
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a17.PNG"
+                    alt="Morgan's Sea Salt Spray"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Сольовий спрей для вкладання Morgan's Sea Salt Spray
+            </div>
+
+            <div class="price">
+                600 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Morgan's Sea Salt Spray"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     NISHMAN
+========================= -->
+
+<section class="brand" id="nishman">
+
+    <div class="brand-title">
+
+        <span class="brand-number">
+            03
+        </span>
+
+        <h2 class="brand-name">
+            NISHMAN
+        </h2>
+
+    </div>
+
+
+    <div class="product-grid">
+
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a9.PNG"
+                    alt="Nishman двофазник 400 мл"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Nishman двофазник 400 мл
+            </div>
+
+            <div class="price">
+                900 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Nishman двофазник 400 мл"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a10.PNG"
+                    alt="Nishman After Shave Cologne 400 мл"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Nishman After Shave Cologne 400 мл
+            </div>
+
+            <div class="price">
+                900 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Nishman After Shave Cologne 400 мл"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a11.PNG"
+                    alt="Nishman паста M2 100 мл"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Nishman паста M2 100 мл
+            </div>
+
+            <div class="price">
+                500 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Nishman паста M2 100 мл"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <!-- NEW NISHMAN M3 -->
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a15.PNG"
+                    alt="Nishman M3 Matte Paste Texturizing Mess Up"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Матова текстуруюча паста для стилізації волосся Nishman M3 Matte Paste Texturizing Mess Up
+            </div>
+
+            <div class="price">
+                500 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Nishman M3 Matte Paste Texturizing Mess Up"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <!-- NEW NISHMAN M1 -->
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a16.PNG"
+                    alt="Nishman M1 Matte Paste Argan"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Матова паста для стилізації волосся Nishman M1 Matte Paste Argan
+            </div>
+
+            <div class="price">
+                500 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Nishman M1 Matte Paste Argan"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     XFLEX
+========================= -->
+
+<section class="brand" id="xflex">
+
+    <div class="brand-title">
+
+        <span class="brand-number">
+            04
+        </span>
+
+        <h2 class="brand-name">
+            XFLEX
+        </h2>
+
+    </div>
+
+
+    <div class="product-grid">
+
+
+        <!-- XFLEX ORIGINAL -->
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a13.PNG"
+                    alt="Xflex Aftershave Original Spray"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Лосьйон після гоління для чутливої шкіри Xflex Aftershave Original Spray
+            </div>
+
+            <div class="price">
+                650 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Xflex Aftershave Original Spray"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+
+        <!-- XFLEX GREEN SPLASH -->
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a14.PNG"
+                    alt="Xflex Aftershave Green Splash"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Лосьйон після гоління для чутливої шкіри Xflex Aftershave Green Splash
+            </div>
+
+            <div class="price">
+                650 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Xflex Aftershave Green Splash"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     LUXINA
+========================= -->
+
+<section class="brand" id="luxina">
+
+    <div class="brand-title">
+
+        <span class="brand-number">
+            05
+        </span>
+
+        <h2 class="brand-name">
+            LUXINA
+        </h2>
+
+    </div>
+
+
+    <div class="product-grid">
+
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img
+                    src="a12.PNG"
+                    alt="Luxina крем перед та після гоління 100 мл"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="product-title">
+                Luxina крем перед та після гоління 100 мл
+            </div>
+
+            <div class="price">
+                700 грн
+            </div>
+
+            <a
+                class="order-button"
+                href="https://t.me/blade_room"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-product="Luxina крем перед та після гоління 100 мл"
+            >
+                ЗАМОВИТИ
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
 
 </main>
 
 
-<!-- =========================
-     FOOTER
-========================= -->
 
 <footer>
 
@@ -1370,9 +1476,6 @@ footer{
 </footer>
 
 
-<!-- =========================
-     TELEGRAM
-========================= -->
 
 <script>
 
